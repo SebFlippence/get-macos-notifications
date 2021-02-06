@@ -1,0 +1,27 @@
+{
+  "name": "get-macos-notifications",
+  "version": "1.0.0",
+  "description": "Returns an array of missed macOS notifications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SebFlippence/get-macos-notifications.git"
+  },
+  "homepage": "https://github.com/SebFlippence/get-macos-notifications#readme",
+  "author": "Seb Flippence",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14"
+  },
+  "bin": {
+    "get-macos-notifications": "cli.js"
+  },
+  "dependencies": {
+    "bplist-parser": "^0.2.0",
+    "sqlite": "^4.0.19",
+    "sqlite3": "^5.0.1"
+  }
+}
